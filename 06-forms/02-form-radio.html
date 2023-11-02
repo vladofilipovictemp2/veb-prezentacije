@@ -11,6 +11,10 @@
     <p>Select gender:</p>
 
     <form action="procces_me.php" method="get">
+        First name:
+        <br/>
+        <input type="text" name="first_name" />
+        <br/>
         <input type="radio" name="gender" value="male" checked /> Man
         <br/>
         <input type="radio" name="gender" value="female" /> Woman
@@ -18,7 +22,14 @@
         <input type="radio" name="gender" value="unknown" /> Reject to answer
         <br/>
         <br/>
-        <input type="submit" value="Send" />
+        <input type="radio" name="age" value="child" checked /> Child
+        <br/>
+        <input type="radio" name="age" value="old" /> Old person
+        <br/>
+        <br/>
+        <br/>
+        <input type="submit" value="Send info" />
+
     </form>
 
 </body>
